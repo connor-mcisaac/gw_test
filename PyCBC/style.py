@@ -11,7 +11,7 @@ style1 = {
     # Axes
     'axes.linewidth': 1.0,
     'axes.titlesize': 'x-large',
-    'axes.labelsize': 'large',
+    'axes.labelsize': 'x-large',
     'axes.labelpad': 6.0,
 
     # Ticks
