@@ -6,12 +6,12 @@ style1 = {
     'lines.antialiased': True,
 
     # Font
-    'font.size': 16.0,
+    'font.size': 20.0,
 
     # Axes
     'axes.linewidth': 1.0,
-    'axes.titlesize': 'x-large',
-    'axes.labelsize': 'x-large',
+    'axes.titlesize': 'xx-large',
+    'axes.labelsize': 'xx-large',
     'axes.labelpad': 6.0,
 
     # Ticks
@@ -21,7 +21,7 @@ style1 = {
     #'xtick.minor.width': 1.0,
     'xtick.major.pad': 6.0,
     'xtick.minor.pad': 6.0,
-    'xtick.labelsize': 'medium',
+    'xtick.labelsize': 'x-large',
     'xtick.direction': 'in',
     'xtick.top': True,
 
@@ -31,19 +31,19 @@ style1 = {
     #'ytick.minor.width': 1.0,
     'ytick.major.pad': 6.0,
     'ytick.minor.pad': 6.0,
-    'ytick.labelsize': 'medium',
+    'ytick.labelsize': 'x-large',
     'ytick.direction': 'in',
     'ytick.right': True,
 
     # Legend
     'legend.fancybox': True,
-    'legend.fontsize': 'large',
+    'legend.fontsize': 'x-large',
     'legend.scatterpoints': 5,
     'legend.loc': 'best',
 
     # Figure
     'figure.figsize': [16, 8],
-    'figure.titlesize': 'large',
+    'figure.titlesize': 'xx-large',
 
     # Images
     'image.cmap': 'viridis',
@@ -51,5 +51,6 @@ style1 = {
 
     # Saving
     'savefig.bbox': 'tight',
+    'savefig.pad_inches': 0.025,
     'savefig.format': 'png',
 }
