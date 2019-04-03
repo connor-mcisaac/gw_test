@@ -2,7 +2,7 @@
 
 style1 = {
     # Line styles
-    'lines.linewidth': 1.0,
+    'lines.linewidth': 3.0,
     'lines.antialiased': True,
 
     # Font
@@ -52,5 +52,5 @@ style1 = {
     # Saving
     'savefig.bbox': 'tight',
     'savefig.pad_inches': 0.025,
-    'savefig.format': 'png',
+    'savefig.format': 'pdf',
 }
